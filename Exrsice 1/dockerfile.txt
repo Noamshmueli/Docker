@@ -1,0 +1,4 @@
+FROM ubuntu:xenial
+LABEL maintainer="noamshmueli7@gmail.com"
+RUN apt-get update
+RUN apt-get install -y net-tools telnet openssh-server
